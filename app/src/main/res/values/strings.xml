@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Quiz Application</string>
+    <string name="question_one"> 1) What holds the plant in the soil?</string>
+    <string name="question_two">2) What part of the plant absorbs sunlight?</string>
+    <string name="question_three">3) What part of the plant absorbs water from the soil?</string>
+    <string name="question_four">4) This provides support to the plant</string>
+    <string name="question_five">5) What makes food for the plant?</string>
+    <string name="roots">Roots</string>
+    <string name="leaves">Leaves</string>
+    <string name ="stem">Stem</string>
+    <string name="none">None of the above</string>
+    <string name="submit">Submit</string>
+</resources>

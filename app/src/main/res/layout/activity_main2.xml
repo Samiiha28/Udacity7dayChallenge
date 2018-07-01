@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:paddingTop="78dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLANTS QUIZ APP"
+            android:textColor="#339933"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please enter your name"
+            android:textColor="#339933"
+            android:textSize="18sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:layout_marginTop="78dp"
+            android:layout_marginBottom="18dp"
+            android:hint="Username"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our Quiz Challenge"
+            android:textColor="#339933"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLargeInverse"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Quiz"
+            android:background="@drawable/rounded_button"
+            android:onClick="getUser"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
